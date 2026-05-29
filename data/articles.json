@@ -1,0 +1,73 @@
+{
+  "name": "Ababil Demo Articles",
+  "version": "1.0.0",
+  "site": {
+    "title": "Ababil",
+    "tagline": "Portal berita modern berbasis WordPress dan Next.js"
+  },
+  "categories": [
+    { "id": 1, "slug": "internasional", "name": "Internasional", "count": 2 },
+    { "id": 2, "slug": "nasional", "name": "Nasional", "count": 2 },
+    { "id": 3, "slug": "daerah", "name": "Daerah", "count": 2 },
+    { "id": 4, "slug": "pendidikan", "name": "Pendidikan", "count": 2 },
+    { "id": 5, "slug": "teknologi", "name": "Teknologi", "count": 2 },
+    { "id": 6, "slug": "olahraga", "name": "Olahraga", "count": 2 },
+    { "id": 7, "slug": "otomotif", "name": "Otomotif", "count": 2 },
+    { "id": 8, "slug": "peristiwa", "name": "Peristiwa", "count": 2 },
+    { "id": 9, "slug": "hukrim", "name": "Hukrim", "count": 2 },
+    { "id": 10, "slug": "tni-polri", "name": "TNI Polri", "count": 2 },
+    { "id": 11, "slug": "kesehatan", "name": "Kesehatan", "count": 2 },
+    { "id": 12, "slug": "religius", "name": "Religius", "count": 2 },
+    { "id": 13, "slug": "pariwara", "name": "Pariwara", "count": 2 },
+    { "id": 14, "slug": "video", "name": "Video", "count": 2 }
+  ],
+  "images": {
+    "internasional": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
+    "nasional": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=80",
+    "daerah": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "pendidikan": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+    "teknologi": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+    "olahraga": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+    "otomotif": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
+    "peristiwa": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+    "hukrim": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1400&q=80",
+    "tniPolri": "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=1400&q=80",
+    "kesehatan": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1400&q=80",
+    "religius": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+    "pariwara": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80",
+    "video": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1400&q=80"
+  },
+  "articles": [
+    { "id": 201, "slug": "pemerintah-siapkan-program-baru", "category": "Nasional", "category_slug": "nasional", "title": "Pemerintah Siapkan Program Baru untuk Percepatan Layanan Publik", "excerpt": "Program baru disiapkan untuk mempercepat layanan publik dan memperkuat digitalisasi administrasi.", "image_key": "nasional", "author": "Ababil Editorial" },
+    { "id": 202, "slug": "forum-kawasan-bahas-kerja-sama-internasional", "category": "Internasional", "category_slug": "internasional", "title": "Forum Kawasan Bahas Kerja Sama Internasional", "excerpt": "Delegasi lintas negara membahas kerja sama ekonomi, pendidikan, dan teknologi hijau.", "image_key": "internasional", "author": "Ababil Editorial" },
+    { "id": 203, "slug": "pemkab-perkuat-layanan-digital-di-daerah", "category": "Daerah", "category_slug": "daerah", "title": "Pemkab Perkuat Layanan Digital di Daerah", "excerpt": "Pemerintah daerah memperluas kanal pelayanan publik untuk memudahkan warga mengakses informasi.", "image_key": "daerah", "author": "Ababil Editorial" },
+    { "id": 204, "slug": "komunitas-pendidikan-bahas-penguatan-karakter-pelajar", "category": "Pendidikan", "category_slug": "pendidikan", "title": "Komunitas Pendidikan Bahas Penguatan Karakter Pelajar", "excerpt": "Forum pendidikan membahas strategi pembelajaran digital dan penguatan karakter pelajar.", "image_key": "pendidikan", "author": "Ababil Editorial" },
+    { "id": 205, "slug": "startup-lokal-kembangkan-platform-ai-untuk-umkm", "category": "Teknologi", "category_slug": "teknologi", "title": "Startup Lokal Kembangkan Platform AI untuk UMKM", "excerpt": "Solusi kecerdasan buatan mulai dipakai pelaku usaha kecil untuk mempercepat operasional.", "image_key": "teknologi", "author": "Ababil Editorial" },
+    { "id": 206, "slug": "tim-muda-raih-kemenangan-di-turnamen-regional", "category": "Olahraga", "category_slug": "olahraga", "title": "Tim Muda Raih Kemenangan di Turnamen Regional", "excerpt": "Kemenangan tim muda membuka peluang pembinaan atlet yang lebih konsisten di daerah.", "image_key": "olahraga", "author": "Ababil Editorial" },
+    { "id": 207, "slug": "pasar-otomotif-siapkan-model-ramah-lingkungan", "category": "Otomotif", "category_slug": "otomotif", "title": "Pasar Otomotif Siapkan Model Ramah Lingkungan", "excerpt": "Produsen otomotif mulai menyiapkan kendaraan hemat energi untuk pasar perkotaan.", "image_key": "otomotif", "author": "Ababil Editorial" },
+    { "id": 208, "slug": "hujan-deras-picu-kesiapsiagaan-warga", "category": "Peristiwa", "category_slug": "peristiwa", "title": "Hujan Deras Picu Kesiapsiagaan Warga", "excerpt": "Petugas dan relawan bersiaga di sejumlah titik rawan setelah hujan deras mengguyur wilayah.", "image_key": "peristiwa", "author": "Ababil Editorial" },
+    { "id": 209, "slug": "aparat-ungkap-jaringan-penipuan-digital", "category": "Hukrim", "category_slug": "hukrim", "title": "Aparat Ungkap Jaringan Penipuan Digital", "excerpt": "Kasus penipuan digital menjadi perhatian setelah sejumlah korban melapor ke pihak berwenang.", "image_key": "hukrim", "author": "Ababil Editorial" },
+    { "id": 210, "slug": "sinergi-tni-polri-jaga-kelancaran-agenda-publik", "category": "TNI Polri", "category_slug": "tni-polri", "title": "Sinergi TNI Polri Jaga Kelancaran Agenda Publik", "excerpt": "Personel gabungan disiapkan untuk mendukung keamanan dan kelancaran agenda masyarakat.", "image_key": "tniPolri", "author": "Ababil Editorial" },
+    { "id": 211, "slug": "dokter-ingatkan-pentingnya-pemeriksaan-rutin", "category": "Kesehatan", "category_slug": "kesehatan", "title": "Dokter Ingatkan Pentingnya Pemeriksaan Rutin", "excerpt": "Pemeriksaan kesehatan berkala membantu masyarakat mendeteksi risiko penyakit lebih awal.", "image_key": "kesehatan", "author": "Ababil Editorial" },
+    { "id": 212, "slug": "kajian-keagamaan-ajak-warga-perkuat-kepedulian", "category": "Religius", "category_slug": "religius", "title": "Kajian Keagamaan Ajak Warga Perkuat Kepedulian", "excerpt": "Tokoh agama mengajak masyarakat menjaga harmoni sosial dan kepedulian antarwarga.", "image_key": "religius", "author": "Ababil Editorial" },
+    { "id": 213, "slug": "mitra-lokal-luncurkan-program-promosi-digital", "category": "Pariwara", "category_slug": "pariwara", "title": "Mitra Lokal Luncurkan Program Promosi Digital", "excerpt": "Program pariwara digital membantu pelaku usaha memperluas jangkauan promosi.", "image_key": "pariwara", "author": "Ababil Editorial" },
+    { "id": 214, "slug": "berita-video-redaksi-menyiapkan-format-baru", "category": "Video", "category_slug": "video", "title": "Berita Video Redaksi Menyiapkan Format Baru", "excerpt": "Konten video disiapkan untuk pembaca yang ingin memahami konteks utama secara cepat.", "image_key": "video", "author": "Ababil Editorial" },
+    { "id": 215, "slug": "arsip-daerah-siapkan-layanan-warga", "category": "Daerah", "category_slug": "daerah", "title": "Arsip Daerah Siapkan Layanan Warga Lebih Cepat", "excerpt": "Pelayanan daerah diperkuat dengan loket terpadu dan kanal informasi yang lebih mudah diakses.", "image_key": "daerah", "author": "Ababil Editorial" },
+    { "id": 216, "slug": "pelaku-umkm-manfaatkan-teknologi-pemasaran", "category": "Teknologi", "category_slug": "teknologi", "title": "Pelaku UMKM Manfaatkan Teknologi Pemasaran", "excerpt": "Platform digital membantu pelaku usaha kecil menjangkau pelanggan baru secara lebih terukur.", "image_key": "teknologi", "author": "Ababil Editorial" },
+    { "id": 217, "slug": "sekolah-gelar-program-literasi-digital", "category": "Pendidikan", "category_slug": "pendidikan", "title": "Sekolah Gelar Program Literasi Digital", "excerpt": "Program literasi digital diarahkan untuk memperkuat kecakapan siswa dalam mengelola informasi.", "image_key": "pendidikan", "author": "Ababil Editorial" },
+    { "id": 218, "slug": "warga-gelar-aksi-bersih-lingkungan", "category": "Nasional", "category_slug": "nasional", "title": "Warga Gelar Aksi Bersih Lingkungan", "excerpt": "Gerakan warga menata lingkungan menjadi agenda rutin untuk menjaga ruang publik tetap nyaman.", "image_key": "nasional", "author": "Ababil Editorial" },
+    { "id": 219, "slug": "tim-kesehatan-buka-pos-layanan-keliling", "category": "Kesehatan", "category_slug": "kesehatan", "title": "Tim Kesehatan Buka Pos Layanan Keliling", "excerpt": "Layanan kesehatan keliling menjangkau warga yang sulit mengakses fasilitas kesehatan utama.", "image_key": "kesehatan", "author": "Ababil Editorial" },
+    { "id": 220, "slug": "agenda-olahraga-komunitas-tarik-minat-pemuda", "category": "Olahraga", "category_slug": "olahraga", "title": "Agenda Olahraga Komunitas Tarik Minat Pemuda", "excerpt": "Turnamen komunitas membuka ruang pembinaan dan memperkuat kegiatan positif anak muda.", "image_key": "olahraga", "author": "Ababil Editorial" },
+    { "id": 221, "slug": "wisata-lokal-siapkan-paket-liburan-keluarga", "category": "Pariwara", "category_slug": "pariwara", "title": "Wisata Lokal Siapkan Paket Liburan Keluarga", "excerpt": "Pengelola wisata menyusun paket kunjungan keluarga untuk memperkuat ekonomi lokal.", "image_key": "pariwara", "author": "Ababil Editorial" },
+    { "id": 222, "slug": "aparat-perkuat-patroli-kawasan-ramai", "category": "TNI Polri", "category_slug": "tni-polri", "title": "Aparat Perkuat Patroli Kawasan Ramai", "excerpt": "Patroli bersama dilakukan untuk menjaga keamanan kawasan publik dan pusat aktivitas warga.", "image_key": "tniPolri", "author": "Ababil Editorial" },
+    { "id": 223, "slug": "kasus-hukum-digital-jadi-perhatian-publik", "category": "Hukrim", "category_slug": "hukrim", "title": "Kasus Hukum Digital Jadi Perhatian Publik", "excerpt": "Literasi keamanan digital dinilai penting setelah sejumlah kasus penipuan daring kembali muncul.", "image_key": "hukrim", "author": "Ababil Editorial" },
+    { "id": 224, "slug": "komunitas-religi-gelar-bakti-sosial", "category": "Religius", "category_slug": "religius", "title": "Komunitas Religi Gelar Bakti Sosial", "excerpt": "Kegiatan sosial lintas komunitas digelar untuk membantu warga yang membutuhkan dukungan.", "image_key": "religius", "author": "Ababil Editorial" },
+    { "id": 225, "slug": "pasar-kendaraan-bekas-mulai-pulih", "category": "Otomotif", "category_slug": "otomotif", "title": "Pasar Kendaraan Bekas Mulai Pulih", "excerpt": "Permintaan kendaraan bekas kembali bergerak setelah pelaku pasar menyiapkan skema pembiayaan.", "image_key": "otomotif", "author": "Ababil Editorial" },
+    { "id": 226, "slug": "redaksi-rilis-format-video-singkat", "category": "Video", "category_slug": "video", "title": "Redaksi Rilis Format Video Singkat", "excerpt": "Format video singkat disiapkan untuk memperluas jangkauan pembaca muda di kanal digital.", "image_key": "video", "author": "Ababil Editorial" }
+  ],
+  "tags": [
+    { "id": 1, "slug": "demo", "name": "Demo", "count": 26 },
+    { "id": 2, "slug": "portal-berita", "name": "Portal Berita", "count": 8 },
+    { "id": 3, "slug": "video", "name": "Video", "count": 2 }
+  ]
+}
