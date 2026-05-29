@@ -68,6 +68,61 @@
   "tags": [
     { "id": 1, "slug": "demo", "name": "Demo", "count": 26 },
     { "id": 2, "slug": "portal-berita", "name": "Portal Berita", "count": 8 },
-    { "id": 3, "slug": "video", "name": "Video", "count": 2 }
-  ]
+    { "id": 3, "slug": "video", "name": "Video", "count": 2 },
+    { "id": 4, "slug": "layanan-publik", "name": "Layanan Publik", "count": 4 },
+    { "id": 5, "slug": "digitalisasi", "name": "Digitalisasi", "count": 5 },
+    { "id": 6, "slug": "komunitas", "name": "Komunitas", "count": 4 },
+    { "id": 7, "slug": "keamanan", "name": "Keamanan", "count": 3 },
+    { "id": 8, "slug": "kesehatan-warga", "name": "Kesehatan Warga", "count": 2 },
+    { "id": 9, "slug": "ekonomi-lokal", "name": "Ekonomi Lokal", "count": 3 },
+    { "id": 10, "slug": "pendidikan-digital", "name": "Pendidikan Digital", "count": 2 }
+  ],
+  "topics": [
+    { "id": 1, "slug": "transformasi-digital", "name": "Transformasi Digital", "description": "Kumpulan berita demo tentang layanan publik, UMKM, sekolah, dan administrasi digital.", "article_slugs": [ "pemerintah-siapkan-program-baru", "pemkab-perkuat-layanan-digital-di-daerah", "startup-lokal-kembangkan-platform-ai-untuk-umkm", "pelaku-umkm-manfaatkan-teknologi-pemasaran" ] },
+    { "id": 2, "slug": "agenda-warga", "name": "Agenda Warga", "description": "Rangkaian berita komunitas, kesehatan, keamanan, dan kegiatan lokal.", "article_slugs": [ "warga-gelar-aksi-bersih-lingkungan", "tim-kesehatan-buka-pos-layanan-keliling", "aparat-perkuat-patroli-kawasan-ramai", "komunitas-religi-gelar-bakti-sosial" ] },
+    { "id": 3, "slug": "redaksi-video", "name": "Redaksi Video", "description": "Demo kanal video untuk theme portal berita modern.", "article_slugs": [ "berita-video-redaksi-menyiapkan-format-baru", "redaksi-rilis-format-video-singkat" ] },
+    { "id": 4, "slug": "hukum-dan-keamanan", "name": "Hukum dan Keamanan", "description": "Topik demo untuk kanal hukrim, TNI Polri, dan keamanan publik.", "article_slugs": [ "aparat-ungkap-jaringan-penipuan-digital", "sinergi-tni-polri-jaga-kelancaran-agenda-publik", "kasus-hukum-digital-jadi-perhatian-publik" ] }
+  ],
+  "pages": [
+    { "id": 1, "slug": "tentang-kami", "title": "Tentang Kami", "template": "page", "excerpt": "Halaman profil demo untuk portal berita berbasis Ababil Core.", "sections": [ "profil-redaksi", "visi-misi", "kontak-redaksi" ] },
+    { "id": 2, "slug": "redaksi", "title": "Redaksi", "template": "page-editorial", "excerpt": "Struktur redaksi, kanal berita, dan informasi penanggung jawab konten.", "sections": [ "struktur-redaksi", "pedoman-media-siber" ] },
+    { "id": 3, "slug": "kontak", "title": "Kontak", "template": "page-contact", "excerpt": "Informasi kontak demo, alamat redaksi, email, dan sosial media.", "sections": [ "form-kontak", "alamat", "sosial-media" ] },
+    { "id": 4, "slug": "pedoman-media-siber", "title": "Pedoman Media Siber", "template": "page-legal", "excerpt": "Halaman legal standar untuk demo portal berita.", "sections": [ "pedoman", "hak-jawab", "koreksi-berita" ] },
+    { "id": 5, "slug": "privacy-policy", "title": "Privacy Policy", "template": "page-legal", "excerpt": "Kebijakan privasi demo untuk kebutuhan deploy awal dan pengujian AdSense.", "sections": [ "data", "cookies", "ads" ] }
+  ],
+  "navigation": {
+    "primary": [ "berita", "video", "nasional", "pendidikan", "peristiwa", "teknologi", "olahraga" ],
+    "secondary": [ "internasional", "daerah", "hukrim", "tni-polri", "kesehatan", "religius", "pariwara" ],
+    "footer": [ "tentang-kami", "redaksi", "kontak", "pedoman-media-siber", "privacy-policy" ]
+  },
+  "banners": [
+    { "id": "ababil-demo-top", "name": "Top Banner Demo", "position": "top", "image_key": "pariwara", "link": "/artikel/mitra-lokal-luncurkan-program-promosi-digital", "devices": "both", "enabled": true },
+    { "id": "ababil-demo-after-headline", "name": "After Headline Demo", "position": "after-headline", "image_key": "teknologi", "link": "/artikel/startup-lokal-kembangkan-platform-ai-untuk-umkm", "devices": "both", "enabled": true },
+    { "id": "ababil-demo-sidebar", "name": "Sidebar Banner Demo", "position": "sidebar", "image_key": "nasional", "link": "/topik/transformasi-digital", "devices": "desktop", "enabled": true },
+    { "id": "ababil-demo-mobile", "name": "Mobile Inline Banner Demo", "position": "mobile-inline", "image_key": "video", "link": "/category/video", "devices": "mobile", "enabled": true }
+  ],
+  "ads": [
+    { "id": "adsense-default", "name": "Google AdSense Default", "position": "head", "type": "script", "script": "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8343841902443266\" crossorigin=\"anonymous\"></script>", "enabled": true },
+    { "id": "ad-after-title", "name": "Ad Slot Setelah Judul", "position": "after-title", "type": "slot", "slot": "responsive", "enabled": true },
+    { "id": "ad-sidebar", "name": "Ad Slot Sidebar", "position": "sidebar", "type": "slot", "slot": "rectangle", "enabled": true },
+    { "id": "ad-infeed", "name": "Ad Slot In-feed", "position": "in-feed", "type": "slot", "slot": "native", "enabled": true }
+  ],
+  "modules": [
+    { "id": "headline", "name": "Headline", "source": "latest", "limit": 5, "layout": "hero-slider" },
+    { "id": "recent-posts", "name": "Recent Posts", "source": "latest", "limit": 6, "layout": "compact-grid" },
+    { "id": "popular-posts", "name": "Banyak Dibaca", "source": "popular", "limit": 5, "layout": "ranked-list" },
+    { "id": "editor-picks", "name": "Pilihan Redaksi", "source": "topic:transformasi-digital", "limit": 6, "layout": "carousel" },
+    { "id": "sidebar-social", "name": "Sosial Media", "source": "site.social", "limit": 6, "layout": "icon-list" },
+    { "id": "comments", "name": "Komentar Terbaru", "source": "comments", "limit": 5, "layout": "compact-list" }
+  ],
+  "standard": {
+    "core_plugin": "ababil-core",
+    "required": true,
+    "wordpress_source": "NEXT_PUBLIC_WORDPRESS_URL",
+    "fallback_demo_source": "https://raw.githubusercontent.com/abitsani2310/ababil-demo-data/main/data/articles.json",
+    "article_route": "/artikel/[slug]",
+    "category_route": "/category/[slug]",
+    "topic_route": "/topik/[slug]",
+    "page_route": "/[slug]"
+  }
 }
