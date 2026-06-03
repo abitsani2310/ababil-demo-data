@@ -1,128 +1,2212 @@
 {
   "name": "Ababil Demo Articles",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "updated_at": "2026-06-04",
+  "source": "ababil-portal/data/news.ts",
   "site": {
     "title": "Ababil",
-    "tagline": "Portal berita modern berbasis WordPress dan Next.js"
+    "tagline": "Portal berita modern berbasis WordPress dan Next.js",
+    "logo": "/assets/img/portal-logo.svg",
+    "top_banner_text": "Ababil Portal Wordpress + Next JS"
   },
   "categories": [
-    { "id": 1, "slug": "internasional", "name": "Internasional", "count": 2 },
-    { "id": 2, "slug": "nasional", "name": "Nasional", "count": 2 },
-    { "id": 3, "slug": "daerah", "name": "Daerah", "count": 2 },
-    { "id": 4, "slug": "pendidikan", "name": "Pendidikan", "count": 2 },
-    { "id": 5, "slug": "teknologi", "name": "Teknologi", "count": 2 },
-    { "id": 6, "slug": "olahraga", "name": "Olahraga", "count": 2 },
-    { "id": 7, "slug": "otomotif", "name": "Otomotif", "count": 2 },
-    { "id": 8, "slug": "peristiwa", "name": "Peristiwa", "count": 2 },
-    { "id": 9, "slug": "hukrim", "name": "Hukrim", "count": 2 },
-    { "id": 10, "slug": "tni-polri", "name": "TNI Polri", "count": 2 },
-    { "id": 11, "slug": "kesehatan", "name": "Kesehatan", "count": 2 },
-    { "id": 12, "slug": "religius", "name": "Religius", "count": 2 },
-    { "id": 13, "slug": "pariwara", "name": "Pariwara", "count": 2 },
-    { "id": 14, "slug": "video", "name": "Video", "count": 2 }
+    {
+      "id": 1,
+      "slug": "internasional",
+      "name": "Internasional",
+      "count": 5,
+      "logo": "/assets/img/category-logos/internasional.png"
+    },
+    {
+      "id": 2,
+      "slug": "nasional",
+      "name": "Nasional",
+      "count": 5,
+      "logo": "/assets/img/category-logos/nasional.png"
+    },
+    {
+      "id": 3,
+      "slug": "berita",
+      "name": "Berita",
+      "count": 1,
+      "logo": "/assets/img/category-logos/berita.png"
+    },
+    {
+      "id": 4,
+      "slug": "daerah",
+      "name": "Daerah",
+      "count": 5,
+      "logo": "/assets/img/category-logos/daerah.png"
+    },
+    {
+      "id": 5,
+      "slug": "ekonomi",
+      "name": "Ekonomi",
+      "count": 1,
+      "logo": "/assets/img/category-logos/ekonomi.png"
+    },
+    {
+      "id": 6,
+      "slug": "event",
+      "name": "Event",
+      "count": 1,
+      "logo": "/assets/img/category-logos/event.png"
+    },
+    {
+      "id": 7,
+      "slug": "gaya-hidup",
+      "name": "Gaya Hidup",
+      "count": 1,
+      "logo": "/assets/img/category-logos/gaya-hidup.png"
+    },
+    {
+      "id": 8,
+      "slug": "pendidikan",
+      "name": "Pendidikan",
+      "count": 5,
+      "logo": "/assets/img/category-logos/pendidikan.png"
+    },
+    {
+      "id": 9,
+      "slug": "teknologi",
+      "name": "Teknologi",
+      "count": 5,
+      "logo": "/assets/img/category-logos/teknologi.png"
+    },
+    {
+      "id": 10,
+      "slug": "olahraga",
+      "name": "Olahraga",
+      "count": 5,
+      "logo": "/assets/img/category-logos/olahraga.png"
+    },
+    {
+      "id": 11,
+      "slug": "otomotif",
+      "name": "Otomotif",
+      "count": 5,
+      "logo": "/assets/img/category-logos/otomotif.png"
+    },
+    {
+      "id": 12,
+      "slug": "peristiwa",
+      "name": "Peristiwa",
+      "count": 5,
+      "logo": "/assets/img/category-logos/peristiwa.png"
+    },
+    {
+      "id": 13,
+      "slug": "hukrim",
+      "name": "Hukrim",
+      "count": 5,
+      "logo": "/assets/img/category-logos/hukrim.png"
+    },
+    {
+      "id": 14,
+      "slug": "tni-polri",
+      "name": "TNI Polri",
+      "count": 5,
+      "logo": "/assets/img/category-logos/tni-polri.png"
+    },
+    {
+      "id": 15,
+      "slug": "kesehatan",
+      "name": "Kesehatan",
+      "count": 5,
+      "logo": "/assets/img/category-logos/kesehatan.png"
+    },
+    {
+      "id": 16,
+      "slug": "kuliner",
+      "name": "Kuliner",
+      "count": 1,
+      "logo": "/assets/img/category-logos/kuliner.png"
+    },
+    {
+      "id": 17,
+      "slug": "religius",
+      "name": "Religius",
+      "count": 5,
+      "logo": "/assets/img/category-logos/religius.png"
+    },
+    {
+      "id": 18,
+      "slug": "opini",
+      "name": "Opini",
+      "count": 1,
+      "logo": "/assets/img/category-logos/opini.png"
+    },
+    {
+      "id": 19,
+      "slug": "pemerintahan",
+      "name": "Pemerintahan",
+      "count": 1,
+      "logo": "/assets/img/category-logos/pemerintahan.png"
+    },
+    {
+      "id": 20,
+      "slug": "pariwara",
+      "name": "Pariwara",
+      "count": 5,
+      "logo": "/assets/img/category-logos/pariwara.png"
+    },
+    {
+      "id": 21,
+      "slug": "santri",
+      "name": "Santri",
+      "count": 1,
+      "logo": "/assets/img/category-logos/santri.png"
+    },
+    {
+      "id": 22,
+      "slug": "wisata",
+      "name": "Wisata",
+      "count": 1,
+      "logo": "/assets/img/category-logos/wisata.png"
+    },
+    {
+      "id": 23,
+      "slug": "video",
+      "name": "Video",
+      "count": 5,
+      "logo": "/assets/img/category-logos/video.png"
+    }
   ],
   "images": {
     "internasional": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
     "nasional": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=80",
+    "berita": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=80",
     "daerah": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "ekonomi": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1400&q=80",
+    "event": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1400&q=80",
+    "gaya-hidup": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1400&q=80",
     "pendidikan": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
     "teknologi": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
     "olahraga": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
     "otomotif": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
     "peristiwa": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
     "hukrim": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1400&q=80",
-    "tniPolri": "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=1400&q=80",
+    "tni-polri": "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=1400&q=80",
     "kesehatan": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1400&q=80",
+    "kuliner": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=80",
     "religius": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+    "opini": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1400&q=80",
+    "pemerintahan": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
     "pariwara": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80",
+    "santri": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+    "wisata": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
     "video": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1400&q=80"
   },
   "articles": [
-    { "id": 201, "slug": "pemerintah-siapkan-program-baru", "category": "Nasional", "category_slug": "nasional", "title": "Pemerintah Siapkan Program Baru untuk Percepatan Layanan Publik", "excerpt": "Program baru disiapkan untuk mempercepat layanan publik dan memperkuat digitalisasi administrasi.", "image_key": "nasional", "author": "Ababil Editorial" },
-    { "id": 202, "slug": "forum-kawasan-bahas-kerja-sama-internasional", "category": "Internasional", "category_slug": "internasional", "title": "Forum Kawasan Bahas Kerja Sama Internasional", "excerpt": "Delegasi lintas negara membahas kerja sama ekonomi, pendidikan, dan teknologi hijau.", "image_key": "internasional", "author": "Ababil Editorial" },
-    { "id": 203, "slug": "pemkab-perkuat-layanan-digital-di-daerah", "category": "Daerah", "category_slug": "daerah", "title": "Pemkab Perkuat Layanan Digital di Daerah", "excerpt": "Pemerintah daerah memperluas kanal pelayanan publik untuk memudahkan warga mengakses informasi.", "image_key": "daerah", "author": "Ababil Editorial" },
-    { "id": 204, "slug": "komunitas-pendidikan-bahas-penguatan-karakter-pelajar", "category": "Pendidikan", "category_slug": "pendidikan", "title": "Komunitas Pendidikan Bahas Penguatan Karakter Pelajar", "excerpt": "Forum pendidikan membahas strategi pembelajaran digital dan penguatan karakter pelajar.", "image_key": "pendidikan", "author": "Ababil Editorial" },
-    { "id": 205, "slug": "startup-lokal-kembangkan-platform-ai-untuk-umkm", "category": "Teknologi", "category_slug": "teknologi", "title": "Startup Lokal Kembangkan Platform AI untuk UMKM", "excerpt": "Solusi kecerdasan buatan mulai dipakai pelaku usaha kecil untuk mempercepat operasional.", "image_key": "teknologi", "author": "Ababil Editorial" },
-    { "id": 206, "slug": "tim-muda-raih-kemenangan-di-turnamen-regional", "category": "Olahraga", "category_slug": "olahraga", "title": "Tim Muda Raih Kemenangan di Turnamen Regional", "excerpt": "Kemenangan tim muda membuka peluang pembinaan atlet yang lebih konsisten di daerah.", "image_key": "olahraga", "author": "Ababil Editorial" },
-    { "id": 207, "slug": "pasar-otomotif-siapkan-model-ramah-lingkungan", "category": "Otomotif", "category_slug": "otomotif", "title": "Pasar Otomotif Siapkan Model Ramah Lingkungan", "excerpt": "Produsen otomotif mulai menyiapkan kendaraan hemat energi untuk pasar perkotaan.", "image_key": "otomotif", "author": "Ababil Editorial" },
-    { "id": 208, "slug": "hujan-deras-picu-kesiapsiagaan-warga", "category": "Peristiwa", "category_slug": "peristiwa", "title": "Hujan Deras Picu Kesiapsiagaan Warga", "excerpt": "Petugas dan relawan bersiaga di sejumlah titik rawan setelah hujan deras mengguyur wilayah.", "image_key": "peristiwa", "author": "Ababil Editorial" },
-    { "id": 209, "slug": "aparat-ungkap-jaringan-penipuan-digital", "category": "Hukrim", "category_slug": "hukrim", "title": "Aparat Ungkap Jaringan Penipuan Digital", "excerpt": "Kasus penipuan digital menjadi perhatian setelah sejumlah korban melapor ke pihak berwenang.", "image_key": "hukrim", "author": "Ababil Editorial" },
-    { "id": 210, "slug": "sinergi-tni-polri-jaga-kelancaran-agenda-publik", "category": "TNI Polri", "category_slug": "tni-polri", "title": "Sinergi TNI Polri Jaga Kelancaran Agenda Publik", "excerpt": "Personel gabungan disiapkan untuk mendukung keamanan dan kelancaran agenda masyarakat.", "image_key": "tniPolri", "author": "Ababil Editorial" },
-    { "id": 211, "slug": "dokter-ingatkan-pentingnya-pemeriksaan-rutin", "category": "Kesehatan", "category_slug": "kesehatan", "title": "Dokter Ingatkan Pentingnya Pemeriksaan Rutin", "excerpt": "Pemeriksaan kesehatan berkala membantu masyarakat mendeteksi risiko penyakit lebih awal.", "image_key": "kesehatan", "author": "Ababil Editorial" },
-    { "id": 212, "slug": "kajian-keagamaan-ajak-warga-perkuat-kepedulian", "category": "Religius", "category_slug": "religius", "title": "Kajian Keagamaan Ajak Warga Perkuat Kepedulian", "excerpt": "Tokoh agama mengajak masyarakat menjaga harmoni sosial dan kepedulian antarwarga.", "image_key": "religius", "author": "Ababil Editorial" },
-    { "id": 213, "slug": "mitra-lokal-luncurkan-program-promosi-digital", "category": "Pariwara", "category_slug": "pariwara", "title": "Mitra Lokal Luncurkan Program Promosi Digital", "excerpt": "Program pariwara digital membantu pelaku usaha memperluas jangkauan promosi.", "image_key": "pariwara", "author": "Ababil Editorial" },
-    { "id": 214, "slug": "berita-video-redaksi-menyiapkan-format-baru", "category": "Video", "category_slug": "video", "title": "Berita Video Redaksi Menyiapkan Format Baru", "excerpt": "Konten video disiapkan untuk pembaca yang ingin memahami konteks utama secara cepat.", "image_key": "video", "author": "Ababil Editorial" },
-    { "id": 215, "slug": "arsip-daerah-siapkan-layanan-warga", "category": "Daerah", "category_slug": "daerah", "title": "Arsip Daerah Siapkan Layanan Warga Lebih Cepat", "excerpt": "Pelayanan daerah diperkuat dengan loket terpadu dan kanal informasi yang lebih mudah diakses.", "image_key": "daerah", "author": "Ababil Editorial" },
-    { "id": 216, "slug": "pelaku-umkm-manfaatkan-teknologi-pemasaran", "category": "Teknologi", "category_slug": "teknologi", "title": "Pelaku UMKM Manfaatkan Teknologi Pemasaran", "excerpt": "Platform digital membantu pelaku usaha kecil menjangkau pelanggan baru secara lebih terukur.", "image_key": "teknologi", "author": "Ababil Editorial" },
-    { "id": 217, "slug": "sekolah-gelar-program-literasi-digital", "category": "Pendidikan", "category_slug": "pendidikan", "title": "Sekolah Gelar Program Literasi Digital", "excerpt": "Program literasi digital diarahkan untuk memperkuat kecakapan siswa dalam mengelola informasi.", "image_key": "pendidikan", "author": "Ababil Editorial" },
-    { "id": 218, "slug": "warga-gelar-aksi-bersih-lingkungan", "category": "Nasional", "category_slug": "nasional", "title": "Warga Gelar Aksi Bersih Lingkungan", "excerpt": "Gerakan warga menata lingkungan menjadi agenda rutin untuk menjaga ruang publik tetap nyaman.", "image_key": "nasional", "author": "Ababil Editorial" },
-    { "id": 219, "slug": "tim-kesehatan-buka-pos-layanan-keliling", "category": "Kesehatan", "category_slug": "kesehatan", "title": "Tim Kesehatan Buka Pos Layanan Keliling", "excerpt": "Layanan kesehatan keliling menjangkau warga yang sulit mengakses fasilitas kesehatan utama.", "image_key": "kesehatan", "author": "Ababil Editorial" },
-    { "id": 220, "slug": "agenda-olahraga-komunitas-tarik-minat-pemuda", "category": "Olahraga", "category_slug": "olahraga", "title": "Agenda Olahraga Komunitas Tarik Minat Pemuda", "excerpt": "Turnamen komunitas membuka ruang pembinaan dan memperkuat kegiatan positif anak muda.", "image_key": "olahraga", "author": "Ababil Editorial" },
-    { "id": 221, "slug": "wisata-lokal-siapkan-paket-liburan-keluarga", "category": "Pariwara", "category_slug": "pariwara", "title": "Wisata Lokal Siapkan Paket Liburan Keluarga", "excerpt": "Pengelola wisata menyusun paket kunjungan keluarga untuk memperkuat ekonomi lokal.", "image_key": "pariwara", "author": "Ababil Editorial" },
-    { "id": 222, "slug": "aparat-perkuat-patroli-kawasan-ramai", "category": "TNI Polri", "category_slug": "tni-polri", "title": "Aparat Perkuat Patroli Kawasan Ramai", "excerpt": "Patroli bersama dilakukan untuk menjaga keamanan kawasan publik dan pusat aktivitas warga.", "image_key": "tniPolri", "author": "Ababil Editorial" },
-    { "id": 223, "slug": "kasus-hukum-digital-jadi-perhatian-publik", "category": "Hukrim", "category_slug": "hukrim", "title": "Kasus Hukum Digital Jadi Perhatian Publik", "excerpt": "Literasi keamanan digital dinilai penting setelah sejumlah kasus penipuan daring kembali muncul.", "image_key": "hukrim", "author": "Ababil Editorial" },
-    { "id": 224, "slug": "komunitas-religi-gelar-bakti-sosial", "category": "Religius", "category_slug": "religius", "title": "Komunitas Religi Gelar Bakti Sosial", "excerpt": "Kegiatan sosial lintas komunitas digelar untuk membantu warga yang membutuhkan dukungan.", "image_key": "religius", "author": "Ababil Editorial" },
-    { "id": 225, "slug": "pasar-kendaraan-bekas-mulai-pulih", "category": "Otomotif", "category_slug": "otomotif", "title": "Pasar Kendaraan Bekas Mulai Pulih", "excerpt": "Permintaan kendaraan bekas kembali bergerak setelah pelaku pasar menyiapkan skema pembiayaan.", "image_key": "otomotif", "author": "Ababil Editorial" },
-    { "id": 226, "slug": "redaksi-rilis-format-video-singkat", "category": "Video", "category_slug": "video", "title": "Redaksi Rilis Format Video Singkat", "excerpt": "Format video singkat disiapkan untuk memperluas jangkauan pembaca muda di kanal digital.", "image_key": "video", "author": "Ababil Editorial" }
+    {
+      "id": 201,
+      "slug": "pemerintah-siapkan-program-baru",
+      "category": "Nasional",
+      "category_slug": "nasional",
+      "title": "Pemerintah Siapkan Program Baru untuk Percepatan Layanan Publik",
+      "excerpt": "Program baru disiapkan untuk mempercepat layanan publik dan memperkuat digitalisasi administrasi.",
+      "content": [
+        "Program baru disiapkan untuk mempercepat layanan publik dan memperkuat digitalisasi administrasi.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "nasional",
+      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "12 menit lalu",
+      "is_live": true
+    },
+    {
+      "id": 202,
+      "slug": "forum-kawasan-bahas-kerja-sama-internasional",
+      "category": "Internasional",
+      "category_slug": "internasional",
+      "title": "Forum Kawasan Bahas Kerja Sama Internasional",
+      "excerpt": "Delegasi lintas negara membahas kerja sama ekonomi, pendidikan, dan teknologi hijau.",
+      "content": [
+        "Delegasi lintas negara membahas kerja sama ekonomi, pendidikan, dan teknologi hijau.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "internasional",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "28 menit lalu",
+      "is_live": false
+    },
+    {
+      "id": 203,
+      "slug": "pemkab-perkuat-layanan-digital-di-daerah",
+      "category": "Daerah",
+      "category_slug": "daerah",
+      "title": "Pemkab Perkuat Layanan Digital di Daerah",
+      "excerpt": "Pemerintah daerah memperluas kanal pelayanan publik untuk memudahkan warga mengakses informasi.",
+      "content": [
+        "Pemerintah daerah memperluas kanal pelayanan publik untuk memudahkan warga mengakses informasi.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "daerah",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "41 menit lalu",
+      "is_live": false
+    },
+    {
+      "id": 204,
+      "slug": "komunitas-pendidikan-bahas-penguatan-karakter-pelajar",
+      "category": "Pendidikan",
+      "category_slug": "pendidikan",
+      "title": "Komunitas Pendidikan Bahas Penguatan Karakter Pelajar",
+      "excerpt": "Forum pendidikan membahas strategi pembelajaran digital dan penguatan karakter pelajar.",
+      "content": [
+        "Forum pendidikan membahas strategi pembelajaran digital dan penguatan karakter pelajar.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pendidikan",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 205,
+      "slug": "startup-lokal-kembangkan-platform-ai-untuk-umkm",
+      "category": "Teknologi",
+      "category_slug": "teknologi",
+      "title": "Startup Lokal Kembangkan Platform AI untuk UMKM",
+      "excerpt": "Solusi kecerdasan buatan mulai dipakai pelaku usaha kecil untuk mempercepat operasional.",
+      "content": [
+        "Solusi kecerdasan buatan mulai dipakai pelaku usaha kecil untuk mempercepat operasional.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "teknologi",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "2 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 206,
+      "slug": "tim-muda-raih-kemenangan-di-turnamen-regional",
+      "category": "Olahraga",
+      "category_slug": "olahraga",
+      "title": "Tim Muda Raih Kemenangan di Turnamen Regional",
+      "excerpt": "Kemenangan tim muda membuka peluang pembinaan atlet yang lebih konsisten di daerah.",
+      "content": [
+        "Kemenangan tim muda membuka peluang pembinaan atlet yang lebih konsisten di daerah.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "olahraga",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "3 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 207,
+      "slug": "pasar-otomotif-siapkan-model-ramah-lingkungan",
+      "category": "Otomotif",
+      "category_slug": "otomotif",
+      "title": "Pasar Otomotif Siapkan Model Ramah Lingkungan",
+      "excerpt": "Produsen otomotif mulai menyiapkan kendaraan hemat energi untuk pasar perkotaan.",
+      "content": [
+        "Produsen otomotif mulai menyiapkan kendaraan hemat energi untuk pasar perkotaan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "otomotif",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "4 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 208,
+      "slug": "hujan-deras-picu-kesiapsiagaan-warga",
+      "category": "Peristiwa",
+      "category_slug": "peristiwa",
+      "title": "Hujan Deras Picu Kesiapsiagaan Warga",
+      "excerpt": "Petugas dan relawan bersiaga di sejumlah titik rawan setelah hujan deras mengguyur wilayah.",
+      "content": [
+        "Petugas dan relawan bersiaga di sejumlah titik rawan setelah hujan deras mengguyur wilayah.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "peristiwa",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "5 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 209,
+      "slug": "aparat-ungkap-jaringan-penipuan-digital",
+      "category": "Hukrim",
+      "category_slug": "hukrim",
+      "title": "Aparat Ungkap Jaringan Penipuan Digital",
+      "excerpt": "Kasus penipuan digital menjadi perhatian setelah sejumlah korban melapor ke pihak berwenang.",
+      "content": [
+        "Kasus penipuan digital menjadi perhatian setelah sejumlah korban melapor ke pihak berwenang.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "hukrim",
+      "image": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "6 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 210,
+      "slug": "sinergi-tni-polri-jaga-kelancaran-agenda-publik",
+      "category": "TNI Polri",
+      "category_slug": "tni-polri",
+      "title": "Sinergi TNI Polri Jaga Kelancaran Agenda Publik",
+      "excerpt": "Personel gabungan disiapkan untuk mendukung keamanan dan kelancaran agenda masyarakat.",
+      "content": [
+        "Personel gabungan disiapkan untuk mendukung keamanan dan kelancaran agenda masyarakat.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "tni-polri",
+      "image": "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "7 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 211,
+      "slug": "dokter-ingatkan-pentingnya-pemeriksaan-rutin",
+      "category": "Kesehatan",
+      "category_slug": "kesehatan",
+      "title": "Dokter Ingatkan Pentingnya Pemeriksaan Rutin",
+      "excerpt": "Pemeriksaan kesehatan berkala membantu masyarakat mendeteksi risiko penyakit lebih awal.",
+      "content": [
+        "Pemeriksaan kesehatan berkala membantu masyarakat mendeteksi risiko penyakit lebih awal.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "kesehatan",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "8 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 212,
+      "slug": "kajian-keagamaan-ajak-warga-perkuat-kepedulian",
+      "category": "Religius",
+      "category_slug": "religius",
+      "title": "Kajian Keagamaan Ajak Warga Perkuat Kepedulian",
+      "excerpt": "Tokoh agama mengajak masyarakat menjaga harmoni sosial dan kepedulian antarwarga.",
+      "content": [
+        "Tokoh agama mengajak masyarakat menjaga harmoni sosial dan kepedulian antarwarga.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "religius",
+      "image": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "9 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 213,
+      "slug": "mitra-lokal-luncurkan-program-promosi-digital",
+      "category": "Pariwara",
+      "category_slug": "pariwara",
+      "title": "Mitra Lokal Luncurkan Program Promosi Digital",
+      "excerpt": "Program pariwara digital membantu pelaku usaha memperluas jangkauan promosi.",
+      "content": [
+        "Program pariwara digital membantu pelaku usaha memperluas jangkauan promosi.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pariwara",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "10 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 214,
+      "slug": "berita-video-redaksi-menyiapkan-format-baru",
+      "category": "Video",
+      "category_slug": "video",
+      "title": "Berita Video Redaksi Menyiapkan Format Baru",
+      "excerpt": "Konten video disiapkan untuk pembaca yang ingin memahami konteks utama secara cepat.",
+      "content": [
+        "Konten video disiapkan untuk pembaca yang ingin memahami konteks utama secara cepat.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "video",
+      "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "11 jam lalu",
+      "is_live": false,
+      "video_url": "https://www.youtube.com/embed/ysz5S6PUM-U"
+    },
+    {
+      "id": 215,
+      "slug": "arsip-daerah-siapkan-layanan-warga",
+      "category": "Daerah",
+      "category_slug": "daerah",
+      "title": "Arsip Daerah Siapkan Layanan Warga Lebih Cepat",
+      "excerpt": "Pelayanan daerah diperkuat dengan loket terpadu dan kanal informasi yang lebih mudah diakses.",
+      "content": [
+        "Pelayanan daerah diperkuat dengan loket terpadu dan kanal informasi yang lebih mudah diakses.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "daerah",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "12 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 216,
+      "slug": "pelaku-umkm-manfaatkan-teknologi-pemasaran",
+      "category": "Teknologi",
+      "category_slug": "teknologi",
+      "title": "Pelaku UMKM Manfaatkan Teknologi Pemasaran",
+      "excerpt": "Platform digital membantu pelaku usaha kecil menjangkau pelanggan baru secara lebih terukur.",
+      "content": [
+        "Platform digital membantu pelaku usaha kecil menjangkau pelanggan baru secara lebih terukur.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "teknologi",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "13 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 217,
+      "slug": "sekolah-gelar-program-literasi-digital",
+      "category": "Pendidikan",
+      "category_slug": "pendidikan",
+      "title": "Sekolah Gelar Program Literasi Digital",
+      "excerpt": "Program literasi digital diarahkan untuk memperkuat kecakapan siswa dalam mengelola informasi.",
+      "content": [
+        "Program literasi digital diarahkan untuk memperkuat kecakapan siswa dalam mengelola informasi.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pendidikan",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "14 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 218,
+      "slug": "warga-gelar-aksi-bersih-lingkungan",
+      "category": "Nasional",
+      "category_slug": "nasional",
+      "title": "Warga Gelar Aksi Bersih Lingkungan",
+      "excerpt": "Gerakan warga menata lingkungan menjadi agenda rutin untuk menjaga ruang publik tetap nyaman.",
+      "content": [
+        "Gerakan warga menata lingkungan menjadi agenda rutin untuk menjaga ruang publik tetap nyaman.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "nasional",
+      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "15 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 219,
+      "slug": "tim-kesehatan-buka-pos-layanan-keliling",
+      "category": "Kesehatan",
+      "category_slug": "kesehatan",
+      "title": "Tim Kesehatan Buka Pos Layanan Keliling",
+      "excerpt": "Layanan kesehatan keliling menjangkau warga yang sulit mengakses fasilitas kesehatan utama.",
+      "content": [
+        "Layanan kesehatan keliling menjangkau warga yang sulit mengakses fasilitas kesehatan utama.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "kesehatan",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "16 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 220,
+      "slug": "agenda-olahraga-komunitas-tarik-minat-pemuda",
+      "category": "Olahraga",
+      "category_slug": "olahraga",
+      "title": "Agenda Olahraga Komunitas Tarik Minat Pemuda",
+      "excerpt": "Turnamen komunitas membuka ruang pembinaan dan memperkuat kegiatan positif anak muda.",
+      "content": [
+        "Turnamen komunitas membuka ruang pembinaan dan memperkuat kegiatan positif anak muda.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "olahraga",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "17 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 221,
+      "slug": "wisata-lokal-siapkan-paket-liburan-keluarga",
+      "category": "Pariwara",
+      "category_slug": "pariwara",
+      "title": "Wisata Lokal Siapkan Paket Liburan Keluarga",
+      "excerpt": "Pengelola wisata menyusun paket kunjungan keluarga untuk memperkuat ekonomi lokal.",
+      "content": [
+        "Pengelola wisata menyusun paket kunjungan keluarga untuk memperkuat ekonomi lokal.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pariwara",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "18 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 222,
+      "slug": "aparat-perkuat-patroli-kawasan-ramai",
+      "category": "TNI Polri",
+      "category_slug": "tni-polri",
+      "title": "Aparat Perkuat Patroli Kawasan Ramai",
+      "excerpt": "Patroli bersama dilakukan untuk menjaga keamanan kawasan publik dan pusat aktivitas warga.",
+      "content": [
+        "Patroli bersama dilakukan untuk menjaga keamanan kawasan publik dan pusat aktivitas warga.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "tni-polri",
+      "image": "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "19 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 223,
+      "slug": "kasus-hukum-digital-jadi-perhatian-publik",
+      "category": "Hukrim",
+      "category_slug": "hukrim",
+      "title": "Kasus Hukum Digital Jadi Perhatian Publik",
+      "excerpt": "Literasi keamanan digital dinilai penting setelah sejumlah kasus penipuan daring kembali muncul.",
+      "content": [
+        "Literasi keamanan digital dinilai penting setelah sejumlah kasus penipuan daring kembali muncul.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "hukrim",
+      "image": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "20 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 224,
+      "slug": "komunitas-religi-gelar-bakti-sosial",
+      "category": "Religius",
+      "category_slug": "religius",
+      "title": "Komunitas Religi Gelar Bakti Sosial",
+      "excerpt": "Kegiatan sosial lintas komunitas digelar untuk membantu warga yang membutuhkan dukungan.",
+      "content": [
+        "Kegiatan sosial lintas komunitas digelar untuk membantu warga yang membutuhkan dukungan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "religius",
+      "image": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "21 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 225,
+      "slug": "pasar-kendaraan-bekas-mulai-pulih",
+      "category": "Otomotif",
+      "category_slug": "otomotif",
+      "title": "Pasar Kendaraan Bekas Mulai Pulih",
+      "excerpt": "Permintaan kendaraan bekas kembali bergerak setelah pelaku pasar menyiapkan skema pembiayaan.",
+      "content": [
+        "Permintaan kendaraan bekas kembali bergerak setelah pelaku pasar menyiapkan skema pembiayaan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "otomotif",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "22 jam lalu",
+      "is_live": false
+    },
+    {
+      "id": 226,
+      "slug": "redaksi-rilis-format-video-singkat",
+      "category": "Video",
+      "category_slug": "video",
+      "title": "Redaksi Rilis Format Video Singkat",
+      "excerpt": "Format video singkat disiapkan untuk memperluas jangkauan pembaca muda di kanal digital.",
+      "content": [
+        "Format video singkat disiapkan untuk memperluas jangkauan pembaca muda di kanal digital.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "video",
+      "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "23 jam lalu",
+      "is_live": false,
+      "video_url": "https://www.youtube.com/embed/jNQXAC9IVRw"
+    },
+    {
+      "id": 227,
+      "slug": "diplomasi-kawasan-perkuat-agenda-pendidikan",
+      "category": "Internasional",
+      "category_slug": "internasional",
+      "title": "Diplomasi Kawasan Perkuat Agenda Pendidikan",
+      "excerpt": "Pertukaran pelajar dan riset lintas negara menjadi fokus kerja sama pendidikan kawasan.",
+      "content": [
+        "Pertukaran pelajar dan riset lintas negara menjadi fokus kerja sama pendidikan kawasan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "internasional",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 228,
+      "slug": "pertemuan-global-bahas-transisi-energi",
+      "category": "Internasional",
+      "category_slug": "internasional",
+      "title": "Pertemuan Global Bahas Transisi Energi",
+      "excerpt": "Delegasi dunia membahas pembiayaan transisi energi dan teknologi rendah emisi.",
+      "content": [
+        "Delegasi dunia membahas pembiayaan transisi energi dan teknologi rendah emisi.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "internasional",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 229,
+      "slug": "komunitas-diaspora-dorong-promosi-budaya",
+      "category": "Internasional",
+      "category_slug": "internasional",
+      "title": "Komunitas Diaspora Dorong Promosi Budaya",
+      "excerpt": "Komunitas diaspora memperkuat promosi budaya melalui festival dan kanal digital.",
+      "content": [
+        "Komunitas diaspora memperkuat promosi budaya melalui festival dan kanal digital.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "internasional",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 230,
+      "slug": "forum-ekonomi-asia-siapkan-rantai-pasok-baru",
+      "category": "Internasional",
+      "category_slug": "internasional",
+      "title": "Forum Ekonomi Asia Siapkan Rantai Pasok Baru",
+      "excerpt": "Pelaku usaha kawasan menyiapkan rantai pasok yang lebih tangguh untuk industri strategis.",
+      "content": [
+        "Pelaku usaha kawasan menyiapkan rantai pasok yang lebih tangguh untuk industri strategis.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "internasional",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 231,
+      "slug": "program-nasional-perkuat-pelayanan-desa",
+      "category": "Nasional",
+      "category_slug": "nasional",
+      "title": "Program Nasional Perkuat Pelayanan Desa",
+      "excerpt": "Pemerintah menyiapkan dukungan digital untuk mempercepat pelayanan administrasi desa.",
+      "content": [
+        "Pemerintah menyiapkan dukungan digital untuk mempercepat pelayanan administrasi desa.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "nasional",
+      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 232,
+      "slug": "kebijakan-publik-didorong-lebih-terbuka",
+      "category": "Nasional",
+      "category_slug": "nasional",
+      "title": "Kebijakan Publik Didorong Lebih Terbuka",
+      "excerpt": "Transparansi data menjadi perhatian dalam penyusunan kebijakan publik lintas sektor.",
+      "content": [
+        "Transparansi data menjadi perhatian dalam penyusunan kebijakan publik lintas sektor.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "nasional",
+      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 233,
+      "slug": "gerakan-literasi-nasional-sasar-keluarga",
+      "category": "Nasional",
+      "category_slug": "nasional",
+      "title": "Gerakan Literasi Nasional Sasar Keluarga",
+      "excerpt": "Program literasi keluarga diperluas untuk memperkuat budaya membaca sejak rumah.",
+      "content": [
+        "Program literasi keluarga diperluas untuk memperkuat budaya membaca sejak rumah.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "nasional",
+      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 234,
+      "slug": "pelayanan-daerah-terapkan-antrian-digital",
+      "category": "Daerah",
+      "category_slug": "daerah",
+      "title": "Pelayanan Daerah Terapkan Antrian Digital",
+      "excerpt": "Antrian digital mulai digunakan agar layanan warga lebih tertib dan mudah dipantau.",
+      "content": [
+        "Antrian digital mulai digunakan agar layanan warga lebih tertib dan mudah dipantau.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "daerah",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 235,
+      "slug": "desa-wisata-menata-akses-informasi",
+      "category": "Daerah",
+      "category_slug": "daerah",
+      "title": "Desa Wisata Menata Akses Informasi",
+      "excerpt": "Pengelola desa wisata memperbarui informasi rute, fasilitas, dan kalender kegiatan.",
+      "content": [
+        "Pengelola desa wisata memperbarui informasi rute, fasilitas, dan kalender kegiatan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "daerah",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 236,
+      "slug": "pemuda-daerah-bangun-ruang-kolaborasi",
+      "category": "Daerah",
+      "category_slug": "daerah",
+      "title": "Pemuda Daerah Bangun Ruang Kolaborasi",
+      "excerpt": "Ruang kolaborasi pemuda dibuka untuk mengembangkan program ekonomi kreatif lokal.",
+      "content": [
+        "Ruang kolaborasi pemuda dibuka untuk mengembangkan program ekonomi kreatif lokal.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "daerah",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 237,
+      "slug": "kelas-digital-bantu-guru-menyiapkan-materi",
+      "category": "Pendidikan",
+      "category_slug": "pendidikan",
+      "title": "Kelas Digital Bantu Guru Menyiapkan Materi",
+      "excerpt": "Guru memanfaatkan platform digital untuk menyusun bahan ajar yang lebih interaktif.",
+      "content": [
+        "Guru memanfaatkan platform digital untuk menyusun bahan ajar yang lebih interaktif.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pendidikan",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 238,
+      "slug": "kampus-gelar-riset-terapan-untuk-daerah",
+      "category": "Pendidikan",
+      "category_slug": "pendidikan",
+      "title": "Kampus Gelar Riset Terapan untuk Daerah",
+      "excerpt": "Riset terapan diarahkan untuk menjawab kebutuhan layanan dan ekonomi daerah.",
+      "content": [
+        "Riset terapan diarahkan untuk menjawab kebutuhan layanan dan ekonomi daerah.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pendidikan",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 239,
+      "slug": "beasiswa-vokasi-dibuka-untuk-pelajar",
+      "category": "Pendidikan",
+      "category_slug": "pendidikan",
+      "title": "Beasiswa Vokasi Dibuka untuk Pelajar",
+      "excerpt": "Beasiswa vokasi memberi kesempatan pelajar memperdalam keterampilan industri.",
+      "content": [
+        "Beasiswa vokasi memberi kesempatan pelajar memperdalam keterampilan industri.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pendidikan",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 240,
+      "slug": "pusat-data-umkm-permudah-analisis-pasar",
+      "category": "Teknologi",
+      "category_slug": "teknologi",
+      "title": "Pusat Data UMKM Permudah Analisis Pasar",
+      "excerpt": "Data usaha kecil dikonsolidasikan untuk membantu pemetaan pasar dan kebutuhan pendampingan.",
+      "content": [
+        "Data usaha kecil dikonsolidasikan untuk membantu pemetaan pasar dan kebutuhan pendampingan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "teknologi",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 241,
+      "slug": "aplikasi-layanan-warga-tambah-fitur-aduan",
+      "category": "Teknologi",
+      "category_slug": "teknologi",
+      "title": "Aplikasi Layanan Warga Tambah Fitur Aduan",
+      "excerpt": "Fitur aduan digital membantu warga melaporkan masalah layanan dengan lebih cepat.",
+      "content": [
+        "Fitur aduan digital membantu warga melaporkan masalah layanan dengan lebih cepat.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "teknologi",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 242,
+      "slug": "keamanan-siber-jadi-prioritas-lembaga",
+      "category": "Teknologi",
+      "category_slug": "teknologi",
+      "title": "Keamanan Siber Jadi Prioritas Lembaga",
+      "excerpt": "Lembaga publik memperkuat perlindungan data dan prosedur respons insiden siber.",
+      "content": [
+        "Lembaga publik memperkuat perlindungan data dan prosedur respons insiden siber.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "teknologi",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 243,
+      "slug": "liga-komunitas-buka-ruang-talenta-muda",
+      "category": "Olahraga",
+      "category_slug": "olahraga",
+      "title": "Liga Komunitas Buka Ruang Talenta Muda",
+      "excerpt": "Kompetisi komunitas menjadi panggung bagi atlet muda untuk mengasah kemampuan.",
+      "content": [
+        "Kompetisi komunitas menjadi panggung bagi atlet muda untuk mengasah kemampuan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "olahraga",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 244,
+      "slug": "pelatih-daerah-susun-program-pembinaan",
+      "category": "Olahraga",
+      "category_slug": "olahraga",
+      "title": "Pelatih Daerah Susun Program Pembinaan",
+      "excerpt": "Program pembinaan atlet disusun lebih terukur dengan evaluasi rutin setiap bulan.",
+      "content": [
+        "Program pembinaan atlet disusun lebih terukur dengan evaluasi rutin setiap bulan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "olahraga",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 245,
+      "slug": "arena-olahraga-dibuka-untuk-warga",
+      "category": "Olahraga",
+      "category_slug": "olahraga",
+      "title": "Arena Olahraga Dibuka untuk Warga",
+      "excerpt": "Fasilitas olahraga publik dibuka untuk mendorong gaya hidup aktif masyarakat.",
+      "content": [
+        "Fasilitas olahraga publik dibuka untuk mendorong gaya hidup aktif masyarakat.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "olahraga",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 246,
+      "slug": "kendaraan-listrik-mulai-dilirik-keluarga",
+      "category": "Otomotif",
+      "category_slug": "otomotif",
+      "title": "Kendaraan Listrik Mulai Dilirik Keluarga",
+      "excerpt": "Pilihan kendaraan hemat energi semakin diminati oleh keluarga di kawasan perkotaan.",
+      "content": [
+        "Pilihan kendaraan hemat energi semakin diminati oleh keluarga di kawasan perkotaan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "otomotif",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 247,
+      "slug": "bengkel-lokal-siapkan-layanan-digital",
+      "category": "Otomotif",
+      "category_slug": "otomotif",
+      "title": "Bengkel Lokal Siapkan Layanan Digital",
+      "excerpt": "Bengkel lokal mulai menyediakan reservasi dan riwayat servis berbasis aplikasi.",
+      "content": [
+        "Bengkel lokal mulai menyediakan reservasi dan riwayat servis berbasis aplikasi.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "otomotif",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 248,
+      "slug": "komunitas-otomotif-gelar-edukasi-keselamatan",
+      "category": "Otomotif",
+      "category_slug": "otomotif",
+      "title": "Komunitas Otomotif Gelar Edukasi Keselamatan",
+      "excerpt": "Edukasi keselamatan berkendara digelar untuk meningkatkan disiplin pengguna jalan.",
+      "content": [
+        "Edukasi keselamatan berkendara digelar untuk meningkatkan disiplin pengguna jalan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "otomotif",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 249,
+      "slug": "relawan-siaga-bantu-warga-terdampak-cuaca",
+      "category": "Peristiwa",
+      "category_slug": "peristiwa",
+      "title": "Relawan Siaga Bantu Warga Terdampak Cuaca",
+      "excerpt": "Relawan bergerak cepat membantu warga setelah cuaca ekstrem melanda sejumlah wilayah.",
+      "content": [
+        "Relawan bergerak cepat membantu warga setelah cuaca ekstrem melanda sejumlah wilayah.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "peristiwa",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 250,
+      "slug": "jalur-alternatif-disiapkan-saat-kepadatan",
+      "category": "Peristiwa",
+      "category_slug": "peristiwa",
+      "title": "Jalur Alternatif Disiapkan Saat Kepadatan",
+      "excerpt": "Petugas menyiapkan jalur alternatif untuk mengurangi kepadatan di titik rawan.",
+      "content": [
+        "Petugas menyiapkan jalur alternatif untuk mengurangi kepadatan di titik rawan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "peristiwa",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 251,
+      "slug": "posko-informasi-dibuka-untuk-warga",
+      "category": "Peristiwa",
+      "category_slug": "peristiwa",
+      "title": "Posko Informasi Dibuka untuk Warga",
+      "excerpt": "Posko informasi membantu warga mendapatkan pembaruan kondisi dan layanan bantuan.",
+      "content": [
+        "Posko informasi membantu warga mendapatkan pembaruan kondisi dan layanan bantuan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "peristiwa",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 252,
+      "slug": "petugas-cek-kesiapan-fasilitas-publik",
+      "category": "Peristiwa",
+      "category_slug": "peristiwa",
+      "title": "Petugas Cek Kesiapan Fasilitas Publik",
+      "excerpt": "Pemeriksaan fasilitas publik dilakukan untuk memastikan keamanan dan kenyamanan warga.",
+      "content": [
+        "Pemeriksaan fasilitas publik dilakukan untuk memastikan keamanan dan kenyamanan warga.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "peristiwa",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 253,
+      "slug": "edukasi-anti-penipuan-digital-digelar",
+      "category": "Hukrim",
+      "category_slug": "hukrim",
+      "title": "Edukasi Anti Penipuan Digital Digelar",
+      "excerpt": "Warga diajak mengenali pola penipuan digital dan cara melindungi data pribadi.",
+      "content": [
+        "Warga diajak mengenali pola penipuan digital dan cara melindungi data pribadi.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "hukrim",
+      "image": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 254,
+      "slug": "aparat-telusuri-laporan-kejahatan-siber",
+      "category": "Hukrim",
+      "category_slug": "hukrim",
+      "title": "Aparat Telusuri Laporan Kejahatan Siber",
+      "excerpt": "Laporan kejahatan siber ditindaklanjuti melalui pemeriksaan jejak digital.",
+      "content": [
+        "Laporan kejahatan siber ditindaklanjuti melalui pemeriksaan jejak digital.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "hukrim",
+      "image": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 255,
+      "slug": "forum-keamanan-warga-bahas-pencegahan",
+      "category": "Hukrim",
+      "category_slug": "hukrim",
+      "title": "Forum Keamanan Warga Bahas Pencegahan",
+      "excerpt": "Forum warga membahas pencegahan gangguan keamanan di lingkungan permukiman.",
+      "content": [
+        "Forum warga membahas pencegahan gangguan keamanan di lingkungan permukiman.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "hukrim",
+      "image": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 256,
+      "slug": "patroli-gabungan-amankan-agenda-warga",
+      "category": "TNI Polri",
+      "category_slug": "tni-polri",
+      "title": "Patroli Gabungan Amankan Agenda Warga",
+      "excerpt": "Patroli gabungan dilakukan untuk menjaga kelancaran agenda publik dan kegiatan warga.",
+      "content": [
+        "Patroli gabungan dilakukan untuk menjaga kelancaran agenda publik dan kegiatan warga.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "tni-polri",
+      "image": "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 257,
+      "slug": "personel-bantu-distribusi-logistik",
+      "category": "TNI Polri",
+      "category_slug": "tni-polri",
+      "title": "Personel Bantu Distribusi Logistik",
+      "excerpt": "Personel gabungan membantu distribusi logistik ke wilayah yang membutuhkan dukungan.",
+      "content": [
+        "Personel gabungan membantu distribusi logistik ke wilayah yang membutuhkan dukungan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "tni-polri",
+      "image": "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 258,
+      "slug": "edukasi-ketertiban-digelar-di-sekolah",
+      "category": "TNI Polri",
+      "category_slug": "tni-polri",
+      "title": "Edukasi Ketertiban Digelar di Sekolah",
+      "excerpt": "Edukasi ketertiban dan keselamatan diberikan kepada pelajar melalui kegiatan interaktif.",
+      "content": [
+        "Edukasi ketertiban dan keselamatan diberikan kepada pelajar melalui kegiatan interaktif.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "tni-polri",
+      "image": "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 259,
+      "slug": "layanan-kesehatan-ibu-anak-diperluas",
+      "category": "Kesehatan",
+      "category_slug": "kesehatan",
+      "title": "Layanan Kesehatan Ibu Anak Diperluas",
+      "excerpt": "Layanan ibu dan anak diperkuat melalui pos kesehatan dan edukasi gizi keluarga.",
+      "content": [
+        "Layanan ibu dan anak diperkuat melalui pos kesehatan dan edukasi gizi keluarga.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "kesehatan",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 260,
+      "slug": "kampanye-hidup-sehat-sasar-pekerja",
+      "category": "Kesehatan",
+      "category_slug": "kesehatan",
+      "title": "Kampanye Hidup Sehat Sasar Pekerja",
+      "excerpt": "Kampanye hidup sehat mendorong pekerja rutin bergerak dan memeriksa kesehatan.",
+      "content": [
+        "Kampanye hidup sehat mendorong pekerja rutin bergerak dan memeriksa kesehatan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "kesehatan",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 261,
+      "slug": "klinik-keliling-jangkau-wilayah-pinggiran",
+      "category": "Kesehatan",
+      "category_slug": "kesehatan",
+      "title": "Klinik Keliling Jangkau Wilayah Pinggiran",
+      "excerpt": "Klinik keliling membantu warga pinggiran mendapatkan layanan kesehatan dasar.",
+      "content": [
+        "Klinik keliling membantu warga pinggiran mendapatkan layanan kesehatan dasar.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "kesehatan",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 262,
+      "slug": "majelis-ilmu-bahas-kepedulian-sosial",
+      "category": "Religius",
+      "category_slug": "religius",
+      "title": "Majelis Ilmu Bahas Kepedulian Sosial",
+      "excerpt": "Majelis ilmu mengajak jamaah memperkuat kepedulian kepada lingkungan sekitar.",
+      "content": [
+        "Majelis ilmu mengajak jamaah memperkuat kepedulian kepada lingkungan sekitar.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "religius",
+      "image": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 263,
+      "slug": "pesantren-gelar-program-literasi-digital",
+      "category": "Religius",
+      "category_slug": "religius",
+      "title": "Pesantren Gelar Program Literasi Digital",
+      "excerpt": "Program literasi digital pesantren diarahkan untuk memperluas dakwah yang santun.",
+      "content": [
+        "Program literasi digital pesantren diarahkan untuk memperluas dakwah yang santun.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "religius",
+      "image": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 264,
+      "slug": "komunitas-masjid-buka-dapur-sosial",
+      "category": "Religius",
+      "category_slug": "religius",
+      "title": "Komunitas Masjid Buka Dapur Sosial",
+      "excerpt": "Dapur sosial komunitas masjid membantu warga yang membutuhkan makanan siap saji.",
+      "content": [
+        "Dapur sosial komunitas masjid membantu warga yang membutuhkan makanan siap saji.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "religius",
+      "image": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 265,
+      "slug": "brand-lokal-luncurkan-kampanye-kreatif",
+      "category": "Pariwara",
+      "category_slug": "pariwara",
+      "title": "Brand Lokal Luncurkan Kampanye Kreatif",
+      "excerpt": "Kampanye kreatif membantu brand lokal menjangkau konsumen melalui konten digital.",
+      "content": [
+        "Kampanye kreatif membantu brand lokal menjangkau konsumen melalui konten digital.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pariwara",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 266,
+      "slug": "umkm-kuliner-tawarkan-paket-promosi",
+      "category": "Pariwara",
+      "category_slug": "pariwara",
+      "title": "UMKM Kuliner Tawarkan Paket Promosi",
+      "excerpt": "Pelaku UMKM kuliner menyiapkan paket promosi untuk meningkatkan kunjungan pelanggan.",
+      "content": [
+        "Pelaku UMKM kuliner menyiapkan paket promosi untuk meningkatkan kunjungan pelanggan.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pariwara",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 267,
+      "slug": "event-lokal-buka-peluang-sponsor",
+      "category": "Pariwara",
+      "category_slug": "pariwara",
+      "title": "Event Lokal Buka Peluang Sponsor",
+      "excerpt": "Penyelenggara event lokal membuka peluang sponsor bagi pelaku usaha daerah.",
+      "content": [
+        "Penyelenggara event lokal membuka peluang sponsor bagi pelaku usaha daerah.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pariwara",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 268,
+      "slug": "video-redaksi-rangkum-isu-pekan-ini",
+      "category": "Video",
+      "category_slug": "video",
+      "title": "Video Redaksi Rangkum Isu Pekan Ini",
+      "excerpt": "Rangkuman video membantu pembaca memahami isu utama dalam format singkat.",
+      "content": [
+        "Rangkuman video membantu pembaca memahami isu utama dalam format singkat.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "video",
+      "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false,
+      "video_url": "https://www.youtube.com/embed/M7lc1UVf-VE"
+    },
+    {
+      "id": 269,
+      "slug": "liputan-visual-tampilkan-aktivitas-warga",
+      "category": "Video",
+      "category_slug": "video",
+      "title": "Liputan Visual Tampilkan Aktivitas Warga",
+      "excerpt": "Liputan visual menampilkan aktivitas warga dan suasana ruang publik secara ringkas.",
+      "content": [
+        "Liputan visual menampilkan aktivitas warga dan suasana ruang publik secara ringkas.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "video",
+      "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false,
+      "video_url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 270,
+      "slug": "kanal-video-siapkan-format-wawancara",
+      "category": "Video",
+      "category_slug": "video",
+      "title": "Kanal Video Siapkan Format Wawancara",
+      "excerpt": "Format wawancara video disiapkan untuk menghadirkan perspektif narasumber secara langsung.",
+      "content": [
+        "Format wawancara video disiapkan untuk menghadirkan perspektif narasumber secara langsung.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "video",
+      "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false,
+      "video_url": "https://www.youtube.com/embed/ScMzIvxBSi4"
+    },
+    {
+      "id": 271,
+      "slug": "redaksi-rangkum-agenda-publik-hari-ini",
+      "category": "Berita",
+      "category_slug": "berita",
+      "title": "Redaksi Rangkum Agenda Publik Hari Ini",
+      "excerpt": "Rangkuman berita harian menyajikan agenda publik dan isu utama yang perlu dipantau pembaca.",
+      "content": [
+        "Rangkuman berita harian menyajikan agenda publik dan isu utama yang perlu dipantau pembaca.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "berita",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 272,
+      "slug": "pelaku-usaha-daerah-jaga-stabilitas-pasar",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "title": "Pelaku Usaha Daerah Jaga Stabilitas Pasar",
+      "excerpt": "Pelaku usaha dan pemerintah daerah memantau harga kebutuhan pokok serta rantai pasok lokal.",
+      "content": [
+        "Pelaku usaha dan pemerintah daerah memantau harga kebutuhan pokok serta rantai pasok lokal.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "ekonomi",
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 273,
+      "slug": "festival-kreatif-buka-ruang-kolaborasi-warga",
+      "category": "Event",
+      "category_slug": "event",
+      "title": "Festival Kreatif Buka Ruang Kolaborasi Warga",
+      "excerpt": "Agenda komunitas menghadirkan pameran, panggung seni, dan ruang promosi bagi pelaku lokal.",
+      "content": [
+        "Agenda komunitas menghadirkan pameran, panggung seni, dan ruang promosi bagi pelaku lokal.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "event",
+      "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 274,
+      "slug": "komunitas-ajak-warga-jaga-pola-hidup-seimbang",
+      "category": "Gaya Hidup",
+      "category_slug": "gaya-hidup",
+      "title": "Komunitas Ajak Warga Jaga Pola Hidup Seimbang",
+      "excerpt": "Kegiatan gaya hidup sehat mendorong warga menjaga rutinitas, konsumsi, dan kesehatan mental.",
+      "content": [
+        "Kegiatan gaya hidup sehat mendorong warga menjaga rutinitas, konsumsi, dan kesehatan mental.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "gaya-hidup",
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 275,
+      "slug": "pelaku-kuliner-lokal-kembangkan-menu-musiman",
+      "category": "Kuliner",
+      "category_slug": "kuliner",
+      "title": "Pelaku Kuliner Lokal Kembangkan Menu Musiman",
+      "excerpt": "Usaha kuliner daerah menyiapkan menu musiman untuk menarik kunjungan dan memperkuat identitas lokal.",
+      "content": [
+        "Usaha kuliner daerah menyiapkan menu musiman untuk menarik kunjungan dan memperkuat identitas lokal.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "kuliner",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 276,
+      "slug": "opini-publik-dorong-layanan-yang-lebih-terbuka",
+      "category": "Opini",
+      "category_slug": "opini",
+      "title": "Opini Publik Dorong Layanan yang Lebih Terbuka",
+      "excerpt": "Ruang opini menyoroti pentingnya transparansi dan partisipasi warga dalam pelayanan publik.",
+      "content": [
+        "Ruang opini menyoroti pentingnya transparansi dan partisipasi warga dalam pelayanan publik.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "opini",
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 277,
+      "slug": "pemerintahan-daerah-siapkan-evaluasi-program",
+      "category": "Pemerintahan",
+      "category_slug": "pemerintahan",
+      "title": "Pemerintahan Daerah Siapkan Evaluasi Program",
+      "excerpt": "Evaluasi program dilakukan untuk memastikan target layanan dan anggaran berjalan lebih tepat sasaran.",
+      "content": [
+        "Evaluasi program dilakukan untuk memastikan target layanan dan anggaran berjalan lebih tepat sasaran.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "pemerintahan",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 278,
+      "slug": "santri-muda-kembangkan-literasi-digital",
+      "category": "Santri",
+      "category_slug": "santri",
+      "title": "Santri Muda Kembangkan Literasi Digital",
+      "excerpt": "Kegiatan literasi digital di lingkungan pesantren diarahkan untuk memperkuat dakwah dan kreativitas santri.",
+      "content": [
+        "Kegiatan literasi digital di lingkungan pesantren diarahkan untuk memperkuat dakwah dan kreativitas santri.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "santri",
+      "image": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    },
+    {
+      "id": 279,
+      "slug": "destinasi-wisata-lokal-benahi-akses-kunjungan",
+      "category": "Wisata",
+      "category_slug": "wisata",
+      "title": "Destinasi Wisata Lokal Benahi Akses Kunjungan",
+      "excerpt": "Pengelola wisata memperbarui informasi rute, fasilitas, dan paket kunjungan keluarga.",
+      "content": [
+        "Pengelola wisata memperbarui informasi rute, fasilitas, dan paket kunjungan keluarga.",
+        "Artikel demo ini disiapkan untuk memperlihatkan variasi layout portal berita Ababil sebelum tersambung ke WordPress production.",
+        "Ketika environment NEXT_PUBLIC_WORDPRESS_URL diarahkan ke situs WordPress Ababil, konten demo ini otomatis digantikan oleh data REST API asli.",
+        "Struktur demo sudah mendukung headline, arsip kategori, related posts, share artikel, ticker berita, video YouTube, komentar, watermark, dan slot iklan."
+      ],
+      "image_key": "wisata",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+      "author": "Ababil Editorial",
+      "city": "Portal",
+      "time": "1 hari lalu",
+      "is_live": false
+    }
   ],
   "tags": [
-    { "id": 1, "slug": "demo", "name": "Demo", "count": 26 },
-    { "id": 2, "slug": "portal-berita", "name": "Portal Berita", "count": 8 },
-    { "id": 3, "slug": "video", "name": "Video", "count": 2 },
-    { "id": 4, "slug": "layanan-publik", "name": "Layanan Publik", "count": 4 },
-    { "id": 5, "slug": "digitalisasi", "name": "Digitalisasi", "count": 5 },
-    { "id": 6, "slug": "komunitas", "name": "Komunitas", "count": 4 },
-    { "id": 7, "slug": "keamanan", "name": "Keamanan", "count": 3 },
-    { "id": 8, "slug": "kesehatan-warga", "name": "Kesehatan Warga", "count": 2 },
-    { "id": 9, "slug": "ekonomi-lokal", "name": "Ekonomi Lokal", "count": 3 },
-    { "id": 10, "slug": "pendidikan-digital", "name": "Pendidikan Digital", "count": 2 }
+    {
+      "id": 1,
+      "slug": "demo",
+      "name": "Demo",
+      "count": 79
+    },
+    {
+      "id": 2,
+      "slug": "portal-berita",
+      "name": "Portal Berita",
+      "count": 79
+    },
+    {
+      "id": 3,
+      "slug": "video",
+      "name": "Video",
+      "count": 5
+    },
+    {
+      "id": 4,
+      "slug": "layanan-publik",
+      "name": "Layanan Publik",
+      "count": 11
+    },
+    {
+      "id": 5,
+      "slug": "digitalisasi",
+      "name": "Digitalisasi",
+      "count": 10
+    },
+    {
+      "id": 6,
+      "slug": "komunitas",
+      "name": "Komunitas",
+      "count": 11
+    },
+    {
+      "id": 7,
+      "slug": "keamanan",
+      "name": "Keamanan",
+      "count": 10
+    },
+    {
+      "id": 8,
+      "slug": "kesehatan-warga",
+      "name": "Kesehatan Warga",
+      "count": 5
+    },
+    {
+      "id": 9,
+      "slug": "ekonomi-lokal",
+      "name": "Ekonomi Lokal",
+      "count": 7
+    },
+    {
+      "id": 10,
+      "slug": "wisata-daerah",
+      "name": "Wisata Daerah",
+      "count": 6
+    }
   ],
   "topics": [
-    { "id": 1, "slug": "transformasi-digital", "name": "Transformasi Digital", "description": "Kumpulan berita demo tentang layanan publik, UMKM, sekolah, dan administrasi digital.", "article_slugs": [ "pemerintah-siapkan-program-baru", "pemkab-perkuat-layanan-digital-di-daerah", "startup-lokal-kembangkan-platform-ai-untuk-umkm", "pelaku-umkm-manfaatkan-teknologi-pemasaran" ] },
-    { "id": 2, "slug": "agenda-warga", "name": "Agenda Warga", "description": "Rangkaian berita komunitas, kesehatan, keamanan, dan kegiatan lokal.", "article_slugs": [ "warga-gelar-aksi-bersih-lingkungan", "tim-kesehatan-buka-pos-layanan-keliling", "aparat-perkuat-patroli-kawasan-ramai", "komunitas-religi-gelar-bakti-sosial" ] },
-    { "id": 3, "slug": "redaksi-video", "name": "Redaksi Video", "description": "Demo kanal video untuk theme portal berita modern.", "article_slugs": [ "berita-video-redaksi-menyiapkan-format-baru", "redaksi-rilis-format-video-singkat" ] },
-    { "id": 4, "slug": "hukum-dan-keamanan", "name": "Hukum dan Keamanan", "description": "Topik demo untuk kanal hukrim, TNI Polri, dan keamanan publik.", "article_slugs": [ "aparat-ungkap-jaringan-penipuan-digital", "sinergi-tni-polri-jaga-kelancaran-agenda-publik", "kasus-hukum-digital-jadi-perhatian-publik" ] }
+    {
+      "id": 1,
+      "slug": "transformasi-digital",
+      "name": "Transformasi Digital",
+      "description": "Kumpulan berita demo tentang layanan publik, UMKM, sekolah, dan administrasi digital.",
+      "article_slugs": [
+        "pemerintah-siapkan-program-baru",
+        "pemkab-perkuat-layanan-digital-di-daerah",
+        "startup-lokal-kembangkan-platform-ai-untuk-umkm",
+        "pelaku-umkm-manfaatkan-teknologi-pemasaran",
+        "aplikasi-layanan-warga-tambah-fitur-aduan"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "agenda-warga",
+      "name": "Agenda Warga",
+      "description": "Rangkaian berita komunitas, kesehatan, keamanan, dan kegiatan lokal.",
+      "article_slugs": [
+        "warga-gelar-aksi-bersih-lingkungan",
+        "tim-kesehatan-buka-pos-layanan-keliling",
+        "aparat-perkuat-patroli-kawasan-ramai",
+        "komunitas-religi-gelar-bakti-sosial",
+        "festival-kreatif-buka-ruang-kolaborasi-warga"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "redaksi-video",
+      "name": "Redaksi Video",
+      "description": "Demo kanal video dengan sumber YouTube untuk theme portal berita modern.",
+      "article_slugs": [
+        "berita-video-redaksi-menyiapkan-format-baru",
+        "redaksi-rilis-format-video-singkat",
+        "video-redaksi-rangkum-isu-pekan-ini",
+        "liputan-visual-tampilkan-aktivitas-warga",
+        "kanal-video-siapkan-format-wawancara"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "hukum-dan-keamanan",
+      "name": "Hukum dan Keamanan",
+      "description": "Topik demo untuk kanal hukrim, TNI Polri, dan keamanan publik.",
+      "article_slugs": [
+        "aparat-ungkap-jaringan-penipuan-digital",
+        "kasus-hukum-digital-jadi-perhatian-publik",
+        "edukasi-anti-penipuan-digital-digelar",
+        "aparat-telusuri-laporan-kejahatan-siber",
+        "forum-keamanan-warga-bahas-pencegahan",
+        "sinergi-tni-polri-jaga-kelancaran-agenda-publik",
+        "aparat-perkuat-patroli-kawasan-ramai",
+        "patroli-gabungan-amankan-agenda-warga"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "ekonomi-kreatif-lokal",
+      "name": "Ekonomi Kreatif Lokal",
+      "description": "Topik demo untuk UMKM, pariwara, kuliner, event, dan wisata lokal.",
+      "article_slugs": [
+        "pelaku-usaha-daerah-jaga-stabilitas-pasar",
+        "mitra-lokal-luncurkan-program-promosi-digital",
+        "wisata-lokal-siapkan-paket-liburan-keluarga",
+        "brand-lokal-luncurkan-kampanye-kreatif",
+        "umkm-kuliner-tawarkan-paket-promosi",
+        "event-lokal-buka-peluang-sponsor",
+        "pelaku-kuliner-lokal-kembangkan-menu-musiman",
+        "destinasi-wisata-lokal-benahi-akses-kunjungan"
+      ]
+    }
   ],
   "pages": [
-    { "id": 1, "slug": "tentang-kami", "title": "Tentang Kami", "template": "page", "excerpt": "Halaman profil demo untuk portal berita berbasis Ababil Core.", "sections": [ "profil-redaksi", "visi-misi", "kontak-redaksi" ] },
-    { "id": 2, "slug": "redaksi", "title": "Redaksi", "template": "page-editorial", "excerpt": "Struktur redaksi, kanal berita, dan informasi penanggung jawab konten.", "sections": [ "struktur-redaksi", "pedoman-media-siber" ] },
-    { "id": 3, "slug": "kontak", "title": "Kontak", "template": "page-contact", "excerpt": "Informasi kontak demo, alamat redaksi, email, dan sosial media.", "sections": [ "form-kontak", "alamat", "sosial-media" ] },
-    { "id": 4, "slug": "pedoman-media-siber", "title": "Pedoman Media Siber", "template": "page-legal", "excerpt": "Halaman legal standar untuk demo portal berita.", "sections": [ "pedoman", "hak-jawab", "koreksi-berita" ] },
-    { "id": 5, "slug": "privacy-policy", "title": "Privacy Policy", "template": "page-legal", "excerpt": "Kebijakan privasi demo untuk kebutuhan deploy awal dan pengujian AdSense.", "sections": [ "data", "cookies", "ads" ] }
+    {
+      "id": 1,
+      "slug": "tentang-kami",
+      "title": "Tentang Kami",
+      "template": "page",
+      "excerpt": "Halaman profil demo untuk portal berita berbasis Ababil Core.",
+      "sections": [
+        "profil-redaksi",
+        "visi-misi",
+        "kontak-redaksi"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "redaksi",
+      "title": "Redaksi",
+      "template": "page-editorial",
+      "excerpt": "Struktur redaksi, kanal berita, dan informasi penanggung jawab konten.",
+      "sections": [
+        "struktur-redaksi",
+        "pedoman-media-siber"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "kontak",
+      "title": "Kontak",
+      "template": "page-contact",
+      "excerpt": "Informasi kontak demo, alamat redaksi, email, dan sosial media.",
+      "sections": [
+        "form-kontak",
+        "alamat",
+        "sosial-media"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "pedoman-media-siber",
+      "title": "Pedoman Media Siber",
+      "template": "page-legal",
+      "excerpt": "Halaman legal standar untuk demo portal berita.",
+      "sections": [
+        "pedoman",
+        "hak-jawab",
+        "koreksi-berita"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "template": "page-legal",
+      "excerpt": "Kebijakan privasi demo untuk kebutuhan deploy awal dan pengujian AdSense.",
+      "sections": [
+        "data",
+        "cookies",
+        "ads"
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "iklan",
+      "title": "Iklan",
+      "template": "page-ads",
+      "excerpt": "Informasi kerja sama iklan, banner, pariwara, dan paket promosi digital.",
+      "sections": [
+        "banner",
+        "pariwara",
+        "kontak-iklan"
+      ]
+    }
   ],
   "navigation": {
-    "primary": [ "berita", "video", "nasional", "pendidikan", "peristiwa", "teknologi", "olahraga" ],
-    "secondary": [ "internasional", "daerah", "hukrim", "tni-polri", "kesehatan", "religius", "pariwara" ],
-    "footer": [ "tentang-kami", "redaksi", "kontak", "pedoman-media-siber", "privacy-policy" ]
+    "primary": [
+      "internasional",
+      "nasional",
+      "berita",
+      "daerah",
+      "ekonomi",
+      "event",
+      "gaya-hidup",
+      "pendidikan"
+    ],
+    "secondary": [
+      "teknologi",
+      "olahraga",
+      "otomotif",
+      "peristiwa",
+      "hukrim",
+      "tni-polri",
+      "kesehatan",
+      "kuliner",
+      "religius",
+      "opini",
+      "pemerintahan",
+      "pariwara",
+      "santri",
+      "wisata",
+      "video"
+    ],
+    "footer": [
+      "tentang-kami",
+      "redaksi",
+      "kontak",
+      "pedoman-media-siber",
+      "privacy-policy",
+      "iklan"
+    ]
   },
   "banners": [
-    { "id": "ababil-demo-top", "name": "Top Banner Demo", "position": "top", "image_key": "pariwara", "link": "/artikel/mitra-lokal-luncurkan-program-promosi-digital", "devices": "both", "enabled": true },
-    { "id": "ababil-demo-after-headline", "name": "After Headline Demo", "position": "after-headline", "image_key": "teknologi", "link": "/artikel/startup-lokal-kembangkan-platform-ai-untuk-umkm", "devices": "both", "enabled": true },
-    { "id": "ababil-demo-sidebar", "name": "Sidebar Banner Demo", "position": "sidebar", "image_key": "nasional", "link": "/topik/transformasi-digital", "devices": "desktop", "enabled": true },
-    { "id": "ababil-demo-mobile", "name": "Mobile Inline Banner Demo", "position": "mobile-inline", "image_key": "video", "link": "/category/video", "devices": "mobile", "enabled": true }
+    {
+      "id": "ababil-demo-top",
+      "name": "Top Banner Demo",
+      "position": "top",
+      "image_key": "pariwara",
+      "link": "/artikel/mitra-lokal-luncurkan-program-promosi-digital",
+      "devices": "both",
+      "enabled": true
+    },
+    {
+      "id": "ababil-demo-parallax",
+      "name": "Parallax Banner Demo",
+      "position": "parallax",
+      "image": "/assets/img/portal-top-banner.svg",
+      "link": "/",
+      "devices": "both",
+      "enabled": true
+    },
+    {
+      "id": "ababil-demo-after-headline",
+      "name": "After Headline Demo",
+      "position": "after-headline",
+      "image_key": "teknologi",
+      "link": "/artikel/startup-lokal-kembangkan-platform-ai-untuk-umkm",
+      "devices": "both",
+      "enabled": true
+    },
+    {
+      "id": "ababil-demo-sidebar",
+      "name": "Sidebar Banner Demo",
+      "position": "sidebar",
+      "image_key": "nasional",
+      "link": "/topik/transformasi-digital",
+      "devices": "desktop",
+      "enabled": true
+    },
+    {
+      "id": "ababil-demo-mobile",
+      "name": "Mobile Inline Banner Demo",
+      "position": "mobile-inline",
+      "image_key": "video",
+      "link": "/kategori/video",
+      "devices": "mobile",
+      "enabled": true
+    }
   ],
   "ads": [
-    { "id": "adsense-default", "name": "Google AdSense Default", "position": "head", "type": "script", "script": "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8343841902443266\" crossorigin=\"anonymous\"></script>", "enabled": true },
-    { "id": "ad-after-title", "name": "Ad Slot Setelah Judul", "position": "after-title", "type": "slot", "slot": "responsive", "enabled": true },
-    { "id": "ad-sidebar", "name": "Ad Slot Sidebar", "position": "sidebar", "type": "slot", "slot": "rectangle", "enabled": true },
-    { "id": "ad-infeed", "name": "Ad Slot In-feed", "position": "in-feed", "type": "slot", "slot": "native", "enabled": true }
+    {
+      "id": "adsense-default",
+      "name": "Google AdSense Default",
+      "position": "head",
+      "type": "script",
+      "script": "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8343841902443266\" crossorigin=\"anonymous\"></script>",
+      "enabled": true
+    },
+    {
+      "id": "ad-after-title",
+      "name": "Ad Slot Setelah Judul",
+      "position": "after-title",
+      "type": "slot",
+      "slot": "responsive",
+      "enabled": true
+    },
+    {
+      "id": "ad-sidebar",
+      "name": "Ad Slot Sidebar",
+      "position": "sidebar",
+      "type": "slot",
+      "slot": "rectangle",
+      "enabled": true
+    },
+    {
+      "id": "ad-infeed",
+      "name": "Ad Slot In-feed",
+      "position": "in-feed",
+      "type": "slot",
+      "slot": "native",
+      "enabled": true
+    }
   ],
   "modules": [
-    { "id": "headline", "name": "Headline", "source": "latest", "limit": 5, "layout": "hero-slider" },
-    { "id": "recent-posts", "name": "Recent Posts", "source": "latest", "limit": 6, "layout": "compact-grid" },
-    { "id": "popular-posts", "name": "Banyak Dibaca", "source": "popular", "limit": 5, "layout": "ranked-list" },
-    { "id": "editor-picks", "name": "Pilihan Redaksi", "source": "topic:transformasi-digital", "limit": 6, "layout": "carousel" },
-    { "id": "sidebar-social", "name": "Sosial Media", "source": "site.social", "limit": 6, "layout": "icon-list" },
-    { "id": "comments", "name": "Komentar Terbaru", "source": "comments", "limit": 5, "layout": "compact-list" }
+    {
+      "id": "headline",
+      "name": "Headline",
+      "source": "latest",
+      "limit": 5,
+      "layout": "hero-slider"
+    },
+    {
+      "id": "latest-news",
+      "name": "Berita Terbaru",
+      "source": "latest",
+      "limit": 24,
+      "layout": "archive-slider"
+    },
+    {
+      "id": "radar-daerah",
+      "name": "Radar Daerah",
+      "source": "latest",
+      "limit": 4,
+      "layout": "channel-list"
+    },
+    {
+      "id": "video-channel",
+      "name": "Kanal Video",
+      "source": "category:video",
+      "limit": 4,
+      "layout": "youtube-modal-grid"
+    },
+    {
+      "id": "selected-channel",
+      "name": "Kanal Pilihan",
+      "source": "categories",
+      "limit": 6,
+      "layout": "spotlight-grid"
+    },
+    {
+      "id": "popular-posts",
+      "name": "Terpopuler",
+      "source": "popular",
+      "limit": 5,
+      "layout": "ranked-list"
+    },
+    {
+      "id": "related-posts",
+      "name": "Berita Terkait",
+      "source": "related",
+      "limit": 4,
+      "layout": "two-column-grid"
+    },
+    {
+      "id": "comments",
+      "name": "Komentar",
+      "source": "comments",
+      "limit": 6,
+      "layout": "disqus-like"
+    }
   ],
+  "portal_settings": {
+    "branding": {
+      "menu_info_enabled": true,
+      "menu_info_label": "Info",
+      "menu_info_text": "Ababil Portal Wordpress + Next JS|Demo data siap untuk Ababil Core|Kategori Video mendukung player YouTube",
+      "latest_title": "Berita Terbaru",
+      "radar_title": "Radar Daerah",
+      "video_title": "Kanal Video",
+      "spotlight_title": "Kanal Pilihan",
+      "popular_title": "Terpopuler",
+      "related_title": "Berita Terkait",
+      "comment_title": "Komentar",
+      "drawer_page_title": "Halaman",
+      "drawer_category_title": "Kategori",
+      "drawer_popular_title": "Kanal Populer",
+      "drawer_address_title": "Alamat Redaksi",
+      "drawer_address_lines": "Jl. Portal Demo No. 10, Jakarta\nEmail: redaksi@example.com\nTelp: 021-0000-0000",
+      "show_search": true,
+      "show_theme_toggle": true,
+      "show_side_ads": true,
+      "show_mobile_breaking": true,
+      "show_footer": true,
+      "show_share_buttons": true,
+      "show_author_box": true,
+      "show_comments": true,
+      "show_featured_watermark": true,
+      "show_related_posts": true,
+      "show_sidebar_editor": true
+    }
+  },
   "standard": {
     "core_plugin": "ababil-core",
+    "core_min_version": "1.2.3",
     "required": true,
     "wordpress_source": "NEXT_PUBLIC_WORDPRESS_URL",
     "fallback_demo_source": "https://raw.githubusercontent.com/abitsani2310/ababil-demo-data/main/data/articles.json",
     "article_route": "/artikel/[slug]",
-    "category_route": "/category/[slug]",
+    "category_route": "/kategori/[slug]",
     "topic_route": "/topik/[slug]",
-    "page_route": "/[slug]"
+    "page_route": "/halaman/[slug]"
   }
 }

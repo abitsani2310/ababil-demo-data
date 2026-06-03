@@ -13,6 +13,12 @@ Tujuannya:
 
 - `data/articles.json` berisi paket demo lengkap: site, kategori, artikel, tag, topik, halaman, menu, banner, ads, modul, dan kontrak standar.
 
+## Versi Data
+
+- `1.1.0` mengambil paket demo dari Ababil Portal.
+- Isi demo mencakup 23 kategori, 79 artikel, 6 halaman, kanal video dengan sumber YouTube, serta kontrak elemen frontend yang bisa disesuaikan dari Ababil Core.
+- Route standar portal: artikel `/artikel/[slug]`, kategori `/kategori/[slug]`, halaman `/halaman/[slug]`.
+
 ## Sumber Data Standar
 
 Theme Next.js Ababil harus membaca data dengan urutan ini:
