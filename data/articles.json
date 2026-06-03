@@ -2203,7 +2203,7 @@
     "core_min_version": "1.2.3",
     "required": true,
     "wordpress_source": "NEXT_PUBLIC_WORDPRESS_URL",
-    "fallback_demo_source": "https://raw.githubusercontent.com/abitsani2310/ababil-demo-data/main/data/articles.json",
+    "fallback_demo_source": "https://raw.githubusercontent.com/abitsani2310/ababil-demo-data/master/data/articles.json",
     "article_route": "/artikel/[slug]",
     "category_route": "/kategori/[slug]",
     "topic_route": "/topik/[slug]",
